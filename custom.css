@@ -1,0 +1,41 @@
+.y-section-1 .y-text1{
+	font-size: 24px !important;
+	line-height: 30px !important;
+	margin-top: 25px !important;
+}
+
+.u-section-2 .u-repeater-1 {
+	grid-template-columns: repeat(3, 33.33333333%) !important;
+}
+
+.y-section-2{
+	width: 895px;
+    margin: 60px auto 0;
+}
+
+.y-section-2 .y-text-2{
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.y-section-2 .u-repeater-1{
+	grid-template-columns: repeat(3, 33.33333333%) !important;
+}
+
+.y-section-2 .u-list-1{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.y-section-2 .u-layout-wrap-1 {
+    margin: 60px 0 !important;
+}
+
+.u-section-5 .u-image-1 {
+    background-image: url(images/003.webp) !important;
+}
+
+.u-section-6 .u-image-1 {
+    background-image: url(images/004.webp) !important;
+}
