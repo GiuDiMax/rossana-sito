@@ -1,0 +1,53 @@
+.u-layout-row > .u-size-33 {
+    flex: 0 0 100%;
+	width: 100%;
+	min-width: 100% !important;
+}
+
+.u-layout-row {
+    justify-content: center;
+}
+
+.u-container-layout .u-text{
+	margin-left: 10%;
+}
+
+.u-palette-4-light-1{
+	background-color: #009999 !important;
+}
+
+.u-footer {
+    background-color: #009999 !important
+}
+
+.u-footer div p{
+	color: white;
+}
+
+.u-footer .u-sheet-1 {
+    min-height: unset;
+}
+
+.u-footer .u-text-1 {
+    margin: 20px auto;
+}
+
+p{
+	color: #626262;
+	font-weight: 200;
+	text-align: justify;
+	text-justify: inter-word;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+p strong, ul strong{
+	color: #3C2A2E;
+	font-weight: 400;
+}
+
+.page p, .page ul{
+	margin-left: 10%;
+	margin-right: 10%;
+}
