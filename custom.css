@@ -112,6 +112,10 @@
 	left: 10px;
 }
 
+.u-section-3 .u-list-1{
+    width: 98%;
+}
+
 .u-section-7 .u-list-1{
 	margin-top: 15px;
 }
@@ -175,4 +179,84 @@
 
 .u-inner-container-layout{
 	background-color: #009999;
+}
+
+.u-section-2 .u-image-1 {
+    height: 832px;
+}
+
+.u-section-2 {
+    min-height: 1114px;
+}
+
+.u-section-3 .u-text-3 {
+    margin-left: 0;
+	margin-right: 0;
+}
+
+.u-section-3 .u-text-4 {
+    margin-left: 0;
+}
+
+.u-section-4 .u-shape-1 {
+    background-image: url("images/default-logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.spcontainer{
+	padding-left: 10%;
+	padding-right: 10%;
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+	background-color: #009999;
+	
+}
+
+.spcontainer .u-white .u-text-1{
+	text-align: center !important;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0 !important;
+}
+
+.spcontainer .u-white{
+	color: white;
+	background-color: unset !important;
+	text-align: center;
+}
+
+.splide{
+	height: 500px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.splide__slide img {
+	height: 500px;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.splide__arrows {
+	top: 250px;
+}
+
+.u-section-2 .u-image-5 {
+    background-image: url(images/principiante_t.webp);
+}
+
+.u-section-2 .u-image-2 {
+    background-image: url(images/base_t.webp);
+}
+
+.u-section-2 .u-image-3 {
+    background-image: url(images/intermedio_t.webp);
+}
+
+.u-section-2 .u-image-4 {
+    background-image: url(images/avanzato_t.webp);
 }
