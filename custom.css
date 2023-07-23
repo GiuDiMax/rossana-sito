@@ -63,7 +63,7 @@
 }
 
 .u-section-5 .u-image-1 {
-    background-image: url(images/003.webp) !important;
+    background-image: url(images/manina2.webp) !important;
 }
 
 .u-section-6 .u-image-1 {
@@ -259,4 +259,82 @@
 
 .u-section-2 .u-image-4 {
     background-image: url(images/avanzato_t.webp);
+}
+
+.u-section-8 .u-sheet-1 {
+    min-height: unset !important;
+}
+
+.u-section-8{
+	font-family: Raleway,sans-serif;
+}
+
+.u-section-8 .testo1{
+	color: #009999 !important;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.u-section-8 .testo2{
+	text-align: center;
+	margin-bottom: 10px;
+	color: #009999 !important;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.u-section-8 .testo2 a{
+	text-decoration: underline;
+	color: #009999 !important;
+	font-weight: bold;
+}
+
+.u-section-8 .socials{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.u-section-8 .socials a{
+	color: #009999 !important;
+	font-size: 35px;
+}
+
+.u-section-3 .u-image-1 {
+    min-height: 625px;
+    background-image: url(images/benefici2.webp);
+    background-position: 50% 50%;
+}
+
+.u-section-5 .u-group-3 {
+    width: 490px;
+}
+
+.u-section-5 .u-text-5 {
+	color:white !important;
+}
+
+.u-section-5 .u-group-3 {
+	background-color: #009999;
+}
+
+.u-section-5 .u-layout-wrap-1 {
+    width: 95%;
+}
+
+.u-section-5 .u-image-1 {
+    height: 350px;
+	width: 350px !important;
+}
+
+.u-section-5 .u-container-layout-7 {
+    padding-left: 50px;
 }
