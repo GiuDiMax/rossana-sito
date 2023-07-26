@@ -71,3 +71,15 @@ p strong, ul strong{
 	font-weight: bold;
 	color: #009999 !important;
 }
+
+.verdino{
+	color: #009999 !important;
+}
+
+.verdinolista li{
+	color: #009999 !important;
+}
+
+.vettori strong{
+	font-weight: bold !important;
+}

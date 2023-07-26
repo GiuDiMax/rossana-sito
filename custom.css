@@ -226,7 +226,7 @@
 	text-align: center;
 }
 
-.splide{
+#primadopo{
 	height: 500px;
 	max-width: 60%;
 	margin-left: auto;
@@ -234,12 +234,14 @@
 	text-align: center;
 }
 
-.splide__slide img {
+
+#primadopo .splide__slide img {
 	height: 500px;
 	object-fit: cover;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 
 .splide__arrows {
 	top: 250px;
@@ -297,7 +299,7 @@
 	text-align: center;
 	display: flex;
 	flex-direction: row;
-	gap: 20px;
+	gap: 30px;
 	justify-content: center;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -305,7 +307,7 @@
 
 .u-section-8 .socials a{
 	color: #009999 !important;
-	font-size: 35px;
+	font-size: 50px;
 }
 
 .u-section-3 .u-image-1 {
@@ -337,4 +339,195 @@
 
 .u-section-5 .u-container-layout-7 {
     padding-left: 50px;
+}
+
+.contattidiv{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 100%;
+	padding: 30px;
+	justify-content: center;
+	width: 80%;
+	min-width: unset !important;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	row-gap: 50px;
+	column-gap: 100px;
+}
+
+.contattidiv .sx, .contattidiv .dx  {
+	flex-basis: 30%;
+	min-width: 250px;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	height: 550px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.reviews{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	flex-basis: 80%;
+	width: 80%;
+	background-color: white;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.reviews .splide{
+}
+
+.contattidiv .sx{
+	background-color: white;
+}
+
+.contattidiv .dx {
+	background-color: #046e6e;
+	color:white;
+}
+
+.contattidiv .dx label{
+	font-weight: bold;
+}
+
+.contattidiv .dx form{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.contattidiv .dx input, .contattidiv .dx textarea{
+	width: 80%;
+	color: #046e6e !important;
+	border-radius: 5px;
+	border-color: transparent;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.contattidiv .dx .inviabtn{
+	width: 30% !important;
+	min-width: 100px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.reviews .vir{
+	font-size: 90px;
+	font-weight: bold;
+	background-color: white;
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #009999 !important;
+}
+
+.reviews .virgo1{
+	position: relative;
+	top: 30px;
+	right: 100px;
+}
+
+.reviews .virgo2{
+	position: relative;
+	top: -30px;
+	right: -100px;
+}
+
+.reviews .boxrev{
+	text-align: center;
+}
+
+.reviews .vir .virgo{
+	font-family: Serif;
+	position: relative;
+	top: 10px;
+}
+
+.reviews .rev{
+	background-color: #009999 !important;
+	color: white;
+	border-radius: 20px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: 18px;
+	line-height: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+.reviews .splide__pagination{
+	display: none !important;
+}
+
+.reviews .splide__arrow{
+	background-color: transparent !important;
+	padding: 15px;
+	border-radius: 100%;
+	height: 60px;
+	width: 60px;
+}
+
+.reviews .splide__arrows{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reviews .splide__arrow svg{
+	fill: #009999 !important;
+	height: 120px;
+	width: 120px;
+}
+
+#reviews{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin: 0px;
+	width: 100%;
+}
+
+#reviews .splide__slide img {
+	width: 100%;
+	height: 500px;
+	object-fit: contain;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reviews .firma{
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 15px;
+	text-underline-offset: 8px;
 }
