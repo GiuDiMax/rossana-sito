@@ -531,3 +531,11 @@
 	font-size: 15px;
 	text-underline-offset: 8px;
 }
+
+.iubenda-cs-brand-badge, .iub-iframe-brand-button{
+	display:none !important;
+}
+
+#iubenda-iframe .purposes-header-right .iub-iframe-brand-button {
+    display:none !important;
+}
