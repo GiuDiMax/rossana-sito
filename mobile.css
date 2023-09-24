@@ -51,8 +51,11 @@
 	}
 	
 	.u-section-4 .u-image-1 {
-		margin: -665px auto 0 30px !important;
+		margin-top: -999px !important;
 		background-image: url(images/003.webp);
+		margin-left: auto !important;
+		margin-right: auto !important;
+		margin-bottom: 0 !important;
 	}
 	
 	.y-section-2 .u-repeater-1 {
@@ -72,4 +75,83 @@
 		padding-left: 10px !important;
 		padding-right: 10px !important;
 	}
+		
+	.y-section-3 .u-list-1 li {
+		margin-right: 10px;
+	}
+	
+	.u-section-4 .u-group-1 {
+		margin: 100px 0 0 0 !important;
+		width: 100%;
+	}
+	
+	.u-section-4 {
+		height: 1100px;
+	}
+
+	.u-section-2 {
+		height: 2046px;
+	}
+	
+	.u-section-4 .u-container-layout-1 {
+		padding-bottom: 50px !important;
+	}
+	
+	.u-section-5 .u-container-layout-7 {
+		padding: 0 !important;
+	}
+	
+	.u-section-5 .u-image-1 {
+		height: 300px !important;
+		width: 300px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	
+	.spcontainer {
+		padding: 0 !important;
+	}
+	
+	#primadopo {
+		height: auto !important;
+		max-width: 100% !important;
+		width: 100% !important;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	
+	#primadopo .splide__slide img {
+		height: 373px !important;
+		object-fit: contain !important;
+		margin-bottom: 55px;
+	}
+	
+	.contattidiv {
+		width: 95%;
+	}
+	
+	.contattidiv .sx, .contattidiv .dx {
+		flex-basis: 100%;
+	}
+	
+	.reviews {
+		max-width: 95% !important;
+		width: 95% !important;
+	}
+	
+	.reviews .rev .testo{
+		font-size: 13px;
+	}
+	
+	.reviews .rev .firma{
+		font-size: 15px;
+	}
+	
+	.reviews .splide__arrow {
+		padding: 0;
+		width: 22px !important;
+		margin-top: 56px;
+	}
+	
 }
